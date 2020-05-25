@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Schedule</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+    <div class="flex h-screen">
+        <!-- SideBar -->
+        <div class="flex flex-col w-1/3">
+            <div class="flex-grow accent-bg-color">
+                <div class="py-4 px-4">
+                    <div class="flex mt-4 mb-8 items-center">
+                        <div class="blob-shape-lg primary-bg-color text-center text-white">
+                            <div class="flex font-bold h-full items-center justify-center">+</div>
+                        </div>
+                        <h1 class="font-extrabold mx-4">taskly</h1>
+                    </div>
+
+                    <!-- Weekly Pinned -->
+                    <div class="py-4">
+                        <div class="flex justify-between items-baseline">
+                            <div class="text-xl font-normal">Weekly Pinned</div>
+                            <div class="primary-color cursor-pointer text-xs font-bold">View all</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white px-6 py-4 rounded-xl mb-6">
+                        <div class="flex">
+                            <div class="text-xl w-10 h-10 primary-bg-color px-2 py-2 flex justify-center items-center rounded-lg">👨‍⚕️</div>
+                            <div class="px-4">
+                                <div class="font-bold mb-1">Call doctor for tests</div>
+                                <div class="font-normal text-sm  mb-2">15 Mar 2020 - 9:00 AM</div>
+                                <div class="font-normal text-xs text-white font-semibold primary-bg-color-darker inline-block px-3 rounded-full mb-2">Personal</div>
+                                <div class="font-normal text-xs">Ask for blood tests and GYM certificate.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white px-6 py-4 rounded-xl mb-6">
+                        <div class="flex items-center">
+                            <div class="text-xl w-10 h-10 primary-bg-color px-2 py-2 flex justify-center items-center rounded-lg">👸</div>
+                            <div class="px-4 font-bold">Beatrice's bday</div>
+                            <div class="font-normal text-sm">22 Mar 2020</div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white px-6 py-4 rounded-xl mb-6">
+                        <div class="flex items-center">
+                            <div class="text-xl w-10 h-10 text-white primary-bg-color px-2 py-2 flex justify-center items-center rounded-lg">+</div>
+                            <div class="px-4 font-bold">Add new weekly pin</div>
+                        </div>
+                    </div>
+                    <!-- Weekly Pinned -->
+
+                    <!-- Calendar -->
+                    <div class="flex justify-between items-baseline mb-4">
+                        <div class="flex flex-1 items-center">
+                            <div class="text-xl font-normal mr-5">March, 2020</div>
+                            <div class="flex">
+                                <div class="bg-gray-300 rounded-full px-1 py-1 mx-1">
+                                    <svg viewBox="0 0 24 24" class="w-3">
+                                        <path class="heroicon-ui" d="M5.41 11H21a1 1 0 010 2H5.41l5.3 5.3a1 1 0 01-1.42 1.4l-7-7a1 1 0 010-1.4l7-7a1 1 0 011.42 1.4L5.4 11z" />
+                                    </svg>
+                                </div>
+                                <div class="bg-gray-300 rounded-full px-1 py-1 mx-1">
+                                    <svg viewBox="0 0 24 24" class="w-3">
+                                        <path class="heroicon-ui" d="M18.59 13H3a1 1 0 010-2h15.59l-5.3-5.3a1 1 0 111.42-1.4l7 7a1 1 0 010 1.4l-7 7a1 1 0 01-1.42-1.4l5.3-5.3z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="primary-color cursor-pointer text-xs font-bold">Two weeks</div>
+                    </div>
+
+                    <div class="bg-white px-6 py-6 rounded-xl mb-6">
+                        <table class="w-full">
+                            <thead>
+                                <tr class="primary-color text-xs flex justify-between text-center mb-2">
+                                    <th class="flex-1">Mon</th>
+                                    <th class="flex-1">Tue</th>
+                                    <th class="flex-1">Wed</th>
+                                    <th class="flex-1">Thur</th>
+                                    <th class="flex-1">Fri</th>
+                                    <th class="flex-1">Sat</th>
+                                    <th class="flex-1">Sun</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="text-xs flex justify-between text-center mb-6">
+                                    <td class="flex-1 text-gray-400">1</td>
+                                    <td class="flex-1 relative">
+                                        <div class="font-semibold">2</div>
+                                        <div class="w-1 h-1 rounded-full primary-bg-color inline-block absolute left-auto mt-1" style="margin-left: -2px;"></div>
+                                    </td>
+                                    <td class="flex-1 relative">
+                                        <div class="font-semibold">3</div>
+                                        <div class="w-1 h-1 rounded-full primary-bg-color inline-block absolute left-auto mt-1" style="margin-left: -2px;"></div>
+                                    </td>
+                                    <td class="flex-1 relative">
+                                        <div class="font-semibold">4</div>
+                                        <div class="w-1 h-1 rounded-full primary-bg-color inline-block absolute left-auto mt-1" style="margin-left: -2px;"></div>
+                                    </td>
+                                    <td class="flex-1 text-gray-400">5</td>
+                                    <td class="flex-1 text-gray-400">6</td>
+                                    <td class="flex-1 text-gray-400">7</td>
+                                </tr>
+
+                                <tr class="flex items-center justify-between text-center text-xs">
+                                    <td class="flex-1 relative">
+                                        <div class="font-semibold">8</div>
+                                        <div class="w-1 h-1 rounded-full primary-bg-color inline-block absolute left-auto mt-1" style="margin-left: -2px;"></div>
+                                    </td>
+                                    <td class="flex-1">
+                                        <div class="font-semibold">9</div>
+                                    </td>
+                                    <td class="flex-1 text-gray-400">10</td>
+                                    <td class="align-middle flex h-8 items-center justify-center primary-bg-color rounded-full w-8">
+                                        <div class="align-middle font-semibold">11</div>
+                                    </td>
+                                    <td class="flex-1">
+                                        <div class="font-semibold">12</div>
+                                    </td>
+                                    <td class="flex-1 text-gray-400">13</td>
+                                    <td class="flex-1 text-gray-400">14</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- Calendar -->
+                </div>
+            </div>
+        </div>
+        <!-- SideBar -->
+
+        <!-- Main -->
+        <div class="bg-white flex flex-auto">
+            <!-- Middle section -->
+            <div class="flex-1 py-4 px-8 overflow-y-scroll custom-scrollbar">
+                <div class="flex justify-between mt-6">
+                    <div>
+                        <h1 class="text-3xl font-semibold">Today's schedule</h1>
+                        <div class="flex justify-between items-center">
+                            <h2 class="text-2xl primary-color font-semibold">Thursday 11</h2>
+                            <div class="flex">
+                                <div class="bg-gray-300 rounded-full px-1 py-1 mx-1">
+                                    <svg viewBox="0 0 24 24" class="w-3">
+                                        <path class="heroicon-ui" d="M5.41 11H21a1 1 0 010 2H5.41l5.3 5.3a1 1 0 01-1.42 1.4l-7-7a1 1 0 010-1.4l7-7a1 1 0 011.42 1.4L5.4 11z" />
+                                    </svg>
+                                </div>
+                                <div class="bg-gray-300 rounded-full px-1 py-1 mx-1">
+                                    <svg viewBox="0 0 24 24" class="w-3">
+                                        <path class="heroicon-ui" d="M18.59 13H3a1 1 0 010-2h15.59l-5.3-5.3a1 1 0 111.42-1.4l7 7a1 1 0 010 1.4l-7 7a1 1 0 01-1.42-1.4l5.3-5.3z" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blob-shape-lg primary-bg-color text-center text-white">
+                        <div class="flex font-bold h-full items-center justify-center text-2xl">+</div>
+                    </div>
+                </div>
+
+                <div class="flex mt-12">
+                    <div class="w-2"></div>
+                    <div class="flex-auto">
+                        <div class="primary-bg-color px-8 py-6 rounded-xl mb-2">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center">
+                                    <div class="text-xl w-8 h-8 text-white bg-white px-2 py-2 flex justify-center items-center rounded-lg">
+                                        <img class="w-4" src="./images/alarm-clock.png" alt="Alarm clock">
+                                    </div>
+                                    <div class="px-4 font-bold">Wake up Buddy</div>
+                                </div>
+                                <div class="text-sm">7:00 AM</div>
+                            </div>
+                        </div>
+
+                        <div class="primary-bg-color px-8 py-6 rounded-xl mb-2">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center">
+                                    <div class="text-xl w-8 h-8 text-white bg-white px-2 py-2 flex justify-center items-center rounded-lg">
+                                        <img class="w-4" src="./images/yoga.png" alt="Yoga">
+                                    </div>
+                                    <div class="px-4 font-bold">Morning Yoga</div>
+                                </div>
+                                <div class="text-sm">8:00 AM</div>
+                            </div>
+                        </div>
+
+                        <div class="accent-bg-color px-8 py-6 rounded-xl mb-2">
+                            <div class="flex justify-between">
+                                <div class="flex">
+                                    <div class="text-xl w-8 h-8 text-white bg-white px-2 py-2 flex justify-center items-center rounded-lg">
+                                        <img class="w-4" src="./images/workout.png" alt="Workout">
+                                    </div>
+                                    <div class="px-4">
+                                        <div class="font-bold">Daily workout</div>
+                                        <ul class="mt-2 ml-4 text-sm list-disc">
+                                            <li class="my-1">Squat 10x3</li>
+                                            <li class="my-1">Push up 10x3</li>
+                                            <li class="my-1">Push up 10x3</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="text-sm">9:00 AM</div>
+                            </div>
+                        </div>
+
+                        <div class="accent-bg-color px-8 py-6 rounded-xl mb-2">
+                            <div class="flex justify-between">
+                                <div class="flex flex-1">
+                                    <div class="text-xl w-8 h-8 text-white bg-white px-2 py-2 flex justify-center items-center rounded-lg">
+                                        <img class="w-4" src="./images/shift.png" alt="shift">
+                                    </div>
+                                    <div class="px-4">
+                                        <div class="font-bold">Shift project kick off pt.1</div>
+                                        <div class="text-sm py-4">Zoom call, kick off with Elena and Jordan from Shift.</div>
+                                        <div class="flex items-center">
+                                            <div>
+                                                <span class="inline-block bg-pink-300 py-1 px-1 rounded-full"><img class="w-6" src="./images/attendee-3.png" /></span>
+                                                <span class="inline-block bg-green-300 py-1 px-1 rounded-full -ml-4"><img class="w-6" src="./images/attendee-2.png" /></span>
+                                                <span class="inline-block bg-gray-300 py-1 px-1 rounded-full -ml-4"><img class="w-6" src="./images/attendee-1.png" /></span>
+                                            </div>
+                                            <div class="text-sm mx-2">+3 attendees</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-sm">
+                                    <div>10:00 AM</div>
+                                    <div>11:30 AM</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accent-bg-color px-8 py-6 rounded-xl mb-2">
+                            <div class="flex justify-between">
+                                <div class="flex flex-1">
+                                    <div class="text-xl w-8 h-8 text-white bg-white px-2 py-2 flex justify-center items-center rounded-lg">
+                                        <img class="w-4" src="./images/shushi.png" alt="sushi">
+                                    </div>
+                                    <div class="px-4">
+                                        <div class="font-bold">Skype Sushi</div>
+                                        <div class="text-sm pt-4">Lunch with Ally, fight this quarantine with humor!</div>
+                                    </div>
+                                </div>
+                                <div class="text-sm">12:30 AM</div>
+                            </div>
+                        </div>
+
+                        <div class="accent-bg-color px-8 py-6 rounded-xl mb-2">
+                            <div class="flex justify-between">
+                                <div class="flex flex-1">
+                                    <div class="text-xl w-8 h-8 text-white bg-white px-2 py-2 flex justify-center items-center rounded-lg">
+                                        <img class="w-4" src="./images/shift.png" alt="shift">
+                                    </div>
+                                    <div class="px-4">
+                                        <div class="font-bold">Dribbble Shot</div>
+                                        <div class="text-sm pt-4">Working on a new shot!!</div>
+                                    </div>
+                                </div>
+                                <div class="text-sm">2:00 PM</div>
+                            </div>
+                        </div>
+
+                        <div class="accent-bg-color px-8 py-6 rounded-xl mb-2">
+                            <div class="flex justify-between">
+                                <div class="flex flex-1">
+                                    <div class="text-xl w-8 h-8 text-white bg-white px-2 py-2 flex justify-center items-center rounded-lg">
+                                        <img class="w-4" src="./images/shift.png" alt="shift">
+                                    </div>
+                                    <div class="px-4">
+                                        <div class="font-bold">Dribbble Shot</div>
+                                        <div class="text-sm pt-4">Working on a new shot!!</div>
+                                    </div>
+                                </div>
+                                <div class="text-sm">2:00 PM</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Middle section -->
+
+            <!-- Last section -->
+            <div class="w-1/3"></div>
+            <!-- Last section -->
+        </div>
+        <!-- Main -->
+    </div>
+</body>
+
+</html>

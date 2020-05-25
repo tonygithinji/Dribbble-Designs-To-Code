@@ -1,0 +1,29 @@
+{
+  "name": "freelancer-schedule",
+  "version": "1.0.0",
+  "description": "A web freelancer shedule",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss tailwind.css -o styles.css",
+    "build:prod": "postcss tailwind.css -o styles.css --env production",
+    "watch:css": "postcss tailwind.css -o styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonygithinji/Design-To-Code.git"
+  },
+  "author": "Anthony Githinji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonygithinji/Design-To-Code/issues"
+  },
+  "homepage": "https://github.com/tonygithinji/Design-To-Code#readme",
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "autoprefixer": "^9.7.5",
+    "postcss-cli": "^7.1.0"
+  }
+}

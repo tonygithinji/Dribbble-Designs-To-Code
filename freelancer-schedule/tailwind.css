@@ -1,0 +1,67 @@
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+/* purgecss end ignore */
+
+@tailwind  utilities;
+
+.primary-color {
+    color: #f4b961;
+}
+
+.accent-color {
+    color: #fafbfd;
+}
+
+.primary-bg-color{
+    background-color: #f8d57d;
+}
+
+.accent-bg-color{
+    background-color: #fafbfd;
+}
+
+.primary-bg-color-darker{
+    background-color: #f4b860;
+}
+
+.blob-shape-sm {
+    display: block;
+    width: 25px;
+    height: 30px;
+    border-top-left-radius: 97%;
+    border-top-right-radius: 53% 80%;
+    border-bottom-right-radius: 77%;
+    border-bottom-left-radius: 50%;
+}
+
+.blob-shape-lg {
+    display: block;
+    width: 45px;
+    height: 50px;
+    border-top-left-radius: 97%;
+    border-top-right-radius: 53% 80%;
+    border-bottom-right-radius: 77%;
+    border-bottom-left-radius: 50%;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.custom-scrollbar:hover::-webkit-scrollbar-thumb {
+    background: #c4c4c4;
+}
+
+.custom-scrollbar:hover::-webkit-scrollbar-track {
+    background: #edf2f7;
+}
