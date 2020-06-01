@@ -19126,6 +19126,18 @@ video {
   border-bottom-left-radius: 50%;
 }
 
+.blob-shape-pic {
+  display: block;
+  width: 45px;
+  height: 50px;
+  border-top-left-radius: 97%;
+  border-top-right-radius: 53% 80%;
+  border-bottom-right-radius: 77%;
+  border-bottom-left-radius: 50%;
+  background-image: url("./images/profile-pic.jpg");
+  background-size: contain;
+}
+
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
 }
