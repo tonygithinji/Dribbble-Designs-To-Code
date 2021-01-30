@@ -1,0 +1,18 @@
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+/* purgecss end ignore */
+
+@tailwind  utilities;
+
+.default-color {
+  color: #1f6679;
+}
+
+.default-bg {
+  background-color: #1f6679;
+}
+
+.default-border-color {
+  border-color: #1f6679;
+}
